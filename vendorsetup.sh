@@ -42,7 +42,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export OF_ALLOW_DISABLE_NAVBAR=1
     export FOX_ADVANCED_SECURITY=1
     export OF_NO_SPLASH_CHANGE=1
-    export OF_FL_PATH1="/sys/devices/virtual/camera/flash/rear_torch_flash"
+    export OF_FL_PATH1="/sbin/flashlight"
     export OF_FL_PATH2=""
 
     export OF_RUN_POST_FORMAT_PROCESS=1
